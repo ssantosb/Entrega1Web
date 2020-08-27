@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+
+.m1 {
+  margin-top: 2;
+}
+
+.mb1 {
+  margin-bottom: 2;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.gris {
+  color: rgb(150, 156, 150);
+}
+
+.t1 {
+  padding-top: 20%;
+}
+
+.tamano {
+  max-width: 100%;
+}
+.tamano2 {
+  max-width: 100%;
+}
+
+.tamano3 {
+  max-width: 80%;
+}
+
+.tamano4 {
+  max-width: 60%;
+}
+
+.tamano5 {
+  max-width: 40%;
+}
+
+fuenteRoboto {
+  font-style: "Roboto";
+}
+.centrado {
+  text-align: center;
+}
+
+.izq {
+  text-align: left;
+}
+.cabeza {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("./imagenes/FONDO.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.divisor {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("./imagenes/DIVISOR.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#icono {
+  padding: 0;
+  margin: 0;
+}
+
+.fondoAmarillo {
+  font-family: "Roboto";
+  background-color: rgb(255, 217, 0);
+  text-shadow: 3px 3px 2px #696;
+  color: white;
+}
+
+.fondoBlanco {
+  font-family: "Roboto";
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 2px rgb(162, 172, 162);
+  color: black;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 5rem;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 3rem;
+}
+
+.nav-link:hover {
+  background-color: rgb(255, 217, 0);
+}
+
+.dropdown-item:hover {
+  background-color: rgb(248, 236, 166);
+}
+
+.icono:hover {
+  font-family: "Roboto";
+  background-color: rgb(255, 217, 0);
+  color: white;
+  text-shadow: 2px 2px 1px #696;
+}
+th {
+  font-family: "Roboto";
+  font-style: italic;
+}
+
+td {
+  font-family: ;
+}
+th,
+td {
+  padding: 0.25rem;
+  text-align: center;
+  border: 1px solid rgb(27, 25, 25);
+  top: 1px solid rgb(27, 25, 25);
+}
+
+tbody tr:hover {
+  background-color: rgb(248, 236, 166);
+}
+
+.navbar-brand {
+  font-style: italic;
+}
