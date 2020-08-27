@@ -39,13 +39,16 @@
   max-width: 40%;
 }
 
-fuenteRoboto {
+.fuenteRoboto {
   font-style: "Roboto";
 }
 .centrado {
   text-align: center;
 }
 
+.btnAcademico:hover {
+  color: orange;
+}
 .izq {
   text-align: left;
 }
