@@ -74,15 +74,15 @@
   padding: 0;
   margin: 0;
 }
-
-.fondoAmarillo {
+/* Recomiendo que las clases tengan nombre relacionados con sus funciones y tanto por sus estilos, con el nombre fondoNombre puede que sea mas facil saber el uso de esta clase, aplica de igual forma para fondoFrase*/
+.fondoNombre {
   font-family: "Roboto";
   background-color: rgb(255, 217, 0);
   text-shadow: 3px 3px 2px #696;
   color: white;
 }
 
-.fondoBlanco {
+.fondoFrase {
   font-family: "Roboto";
   font-size: 2rem;
   background-color: rgb(255, 255, 255);
@@ -119,9 +119,6 @@ th {
   font-style: italic;
 }
 
-td {
-  font-family: ;
-}
 th,
 td {
   padding: 0.25rem;
