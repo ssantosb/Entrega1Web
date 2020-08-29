@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:700");
 
-.m1 {
-  margin-top: 2;
-}
-
+.m1,
 .mb1 {
-  margin-bottom: 2;
+  margin-top: 2;
 }
 
 .middle {
@@ -20,9 +17,8 @@
   padding-top: 20%;
 }
 
-.tamano {
-  max-width: 100%;
-}
+/* Se podria dejar como uno */
+.tamano,
 .tamano2 {
   max-width: 100%;
 }
@@ -119,9 +115,11 @@ th {
   font-style: italic;
 }
 
+/* Falta valor */
 td {
   font-family: ;
 }
+
 th,
 td {
   padding: 0.25rem;

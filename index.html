@@ -125,6 +125,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
+                                      <!-- Add either an 'id' or a 'scope' attribute to this <th> tag -->
                                         <th>Day of birth</th>
                                         <th>Hometown</th>
                                         <th>Department</th>
@@ -244,6 +245,7 @@
                     <div class="card">
                       <div class="card-header" id="headingOne">
                         <h2 class="mb-0">
+                          <!-- Duplocate id -->
                           <button id="btnSistemas" class="btn btn-link btn-block text-left collapsed btnAcademico" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             Interests in Compuer Systems Engineering
                           </button>
@@ -389,6 +391,7 @@
 
                               <div class="col-12 col-md-6">
                                 <div class="embed-responsive embed-responsive-16by9">
+                                  <!-- Falta el atributo de titulo para mejorar la accesibilidad -->
                                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qQxNwjg6CN4"></iframe>
                                 </div>
                                </div>    
@@ -623,3 +626,7 @@
     ></script>
   </body>
 </html>
+
+<!-- Review ma.hoyosr:  buen trabajo, se comporta bien al cambiar el tamaño de las pantallas.
+Se usa mucho el tag h1 aunque no son titulos de prier nivel. Para que queden iguales a un h1 se debe usar css
+Tambien mejoraria la estructura del html para que sea mas legible-->
