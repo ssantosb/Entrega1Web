@@ -232,11 +232,11 @@
                     </section>
                 </div>    
                </div>
-           </div>
+           </div> <!-- Este cierre de div sobra-->
        </section>
 
        <section id="DatosAcademicos">
-           <div class="container centrado">
+           <div class="container centrado"> <!-- Esta etiqueta nunca se cierra-->
                 <h1><span class="fondoAmarillo">Academic Information</span></h1>
                 <p class="lead">As I said before, I study at Los Andes University since 2018. I am doing double major: <strong>Computer Systems Engineering and Mathematics</strong>. Also, I'm almost finishing two minors: <strong>French Studies and Digital Narratives</strong>. Now, let's take a look at some of my interests in those areas and a few projects I've been involved. </p>
 
@@ -271,7 +271,7 @@
                     <div class="card">
                       <div class="card-header" id="headingTwo">
                         <h2 class="mb-0">
-                          <button id="btnSistemas" class="btn btn-link btn-block text-left collapsed btnAcademico" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <button id="btnSistemas" class="btn btn-link btn-block text-left collapsed btnAcademico" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> <!-- id btnSistemas duplicado-->
                             Interests in Mathematics
                           </button>
                         </h2>
@@ -435,7 +435,7 @@
                    
                   </div>
            </div>
-       </section>
+       </section> <!--Este cierre de section sobra-->
 
        <section id="MediaDivisor" class="divisor">
         <div class="container h-100">
@@ -587,7 +587,7 @@
             <p class="d-block mb-3 text-muted">&copy; 2020</p>
           </div>
           <div class="col-6 col-md">
-            <p class="fuenteRoboto">Social Media</h5>
+            <p class="fuenteRoboto">Social Media</h5> <!--Cierra un p con la etiqueta h5-->
 
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="https://www.facebook.com/sebassantos20/" target="_blank">Facebook</a></li>
@@ -623,3 +623,5 @@
     ></script>
   </body>
 </html>
+
+<!--En general la página se ve demasiado bien estéticamente :).-->
