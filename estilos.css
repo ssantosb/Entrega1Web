@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:700");
 
-.m1,
-.mb1 {
+.m1 {
   margin-top: 2;
+}
+
+.mb1 {
+  margin-bottom: 2;
 }
 
 .middle {
