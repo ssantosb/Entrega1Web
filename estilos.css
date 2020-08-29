@@ -74,7 +74,7 @@
   padding: 0;
   margin: 0;
 }
-
+/* Recomiendo que las clases tengan nombre relacionados con sus funciones y tanto por sus estilos, con el nombre fondoNombre puede que sea mas facil saber el uso de esta clase, aplica de igual forma para fondoFrase*/
 .fondoNombre {
   font-family: "Roboto";
   background-color: rgb(255, 217, 0);
